@@ -1,0 +1,20 @@
+services:
+
+  backend1:
+    build: .
+    container_name: backend1
+    expose:
+      - "5000"
+
+  backend2:
+    build: .
+    container_name: backend2
+    expose:
+      - "5000"
+
+  backend3:
+    build: .
+    container_name: backend3
+    expose:
+      - "5000"
+
